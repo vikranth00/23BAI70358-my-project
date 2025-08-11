@@ -1,20 +1,56 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0; /* Light gray background */
-    display: flex; /* Helps in centering the container */
-    justify-content: center; /* Centers horizontally */
-    align-items: center; /* Centers vertically */
-    min-height: 100vh; /* Ensures the body takes full viewport height */
-    margin: 0; /* Remove default body margin */
+  margin: 0;
+  padding: 0;
+  background-color: #e0e0e0; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
 }
 
-.container {
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    text-align: center; /* Centers content inside the container */
-    width: 90%; /* Take 90% width on small screens */
-    max-width: 350px; /* Max width for larger screens */
+
+.outer_box {
+  background-color: #adaaaaf6; 
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 
+
+.inner_box {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: #333;
+}
+
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+
+.deposit {
+  background-color: #28a745;
+  color: white;
+}
+
+
+.withdraw {
+  background-color: #dc3545;
+  color: white;
+}
